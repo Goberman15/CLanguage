@@ -2,16 +2,17 @@
 
 int main(int argc, char const *argv[])
 {
-    int fahr, celcius;
+    // Change integer to float
+    float fahr, celcius;
     int lower = 0, step = 20, upper = 300;
 
     fahr = lower;
 
     while (fahr <= upper)
     {
-        celcius = 5 * (fahr - 32) / 9;
+        celcius = (5.0 / 9.0) * (fahr - 32.0);
 
-        printf("%d\t%d\n", fahr, celcius);
+        printf("%3.0f %6.1f\n", fahr, celcius);
 
         fahr += step;
     }
