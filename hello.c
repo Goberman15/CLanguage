@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> // include std I/O lib to the code
 
-main()
+int main()
 {
   printf("Hello!");
 
